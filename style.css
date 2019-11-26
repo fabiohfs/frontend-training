@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: lightskyblue;
+}
+
+.container > card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container > operation {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.imageavatar {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.title {
+    justify-content: center;
+}
